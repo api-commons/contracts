@@ -1,0 +1,401 @@
+[
+ {
+  "slug": "agree-com",
+  "specs": [
+   "openapi/_original/agree-com-api-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "apperio",
+  "specs": [
+   "openapi/_original/apperio-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "callidus-legal-ai",
+  "specs": [
+   "openapi/_original/callidus-legal-ai-openapi.json"
+  ]
+ },
+ {
+  "slug": "concord-com",
+  "specs": [
+   "openapi/_original/concord-com-openapi.yml"
+  ]
+ },
+ {
+  "slug": "conga",
+  "specs": [
+   "openapi/_original/conga-administration.json",
+   "openapi/_original/conga-approvals.json",
+   "openapi/_original/conga-asset.json",
+   "openapi/_original/conga-audit.json",
+   "openapi/_original/conga-billing-management.json",
+   "openapi/_original/conga-cart-v1.json",
+   "openapi/_original/conga-catalog.json",
+   "openapi/_original/conga-configuration-management.json",
+   "openapi/_original/conga-conga-sign.json",
+   "openapi/_original/conga-contracts.json",
+   "openapi/_original/conga-conversion-management.json",
+   "openapi/_original/conga-data.json",
+   "openapi/_original/conga-document-management.json",
+   "openapi/_original/conga-email.json",
+   "openapi/_original/conga-esignature.json",
+   "openapi/_original/conga-extensibility.json",
+   "openapi/_original/conga-externalendpointconfiguration.json",
+   "openapi/_original/conga-file-store.json",
+   "openapi/_original/conga-incentive-administration.json",
+   "openapi/_original/conga-ingress.json",
+   "openapi/_original/conga-invoice-management.json",
+   "openapi/_original/conga-localization.json",
+   "openapi/_original/conga-order.json",
+   "openapi/_original/conga-quote.json",
+   "openapi/_original/conga-rebate-administration.json",
+   "openapi/_original/conga-review.json",
+   "openapi/_original/conga-scheduler.json",
+   "openapi/_original/conga-schema-manager.json",
+   "openapi/_original/conga-search.json",
+   "openapi/_original/conga-user-management.json",
+   "openapi/_original/conga-x-author.json"
+  ]
+ },
+ {
+  "slug": "contractbook",
+  "specs": [
+   "openapi/_original/contractbook-openapi.json"
+  ]
+ },
+ {
+  "slug": "dealhub",
+  "specs": [
+   "openapi/_original/dealhub-callout-api-openapi.json",
+   "openapi/_original/dealhub-callout-api-openapi.yml",
+   "openapi/_original/dealhub-crm-api-openapi.json",
+   "openapi/_original/dealhub-crm-api-openapi.yml",
+   "openapi/_original/dealhub-crm-import-api-openapi.json",
+   "openapi/_original/dealhub-external-query-openapi.json",
+   "openapi/_original/dealhub-external-query-openapi.yml",
+   "openapi/_original/dealhub-headless-api-openapi.json",
+   "openapi/_original/dealhub-headless-api-openapi.yml",
+   "openapi/_original/dealhub-partner-api-openapi.json",
+   "openapi/_original/dealhub-partner-api-openapi.yml",
+   "openapi/_original/dealhub-pricing-api-openapi.json",
+   "openapi/_original/dealhub-pricing-api-openapi.yml",
+   "openapi/_original/dealhub-quote-api-openapi.json",
+   "openapi/_original/dealhub-quote-api-openapi.yml",
+   "openapi/_original/dealhub-subskribe-api-openapi.json",
+   "openapi/_original/dealhub-subskribe-api-openapi.yml",
+   "openapi/_original/dealhub-user-api-openapi.json",
+   "openapi/_original/dealhub-user-api-openapi.yml",
+   "openapi/_original/dealhub-version-api-openapi.json",
+   "openapi/_original/dealhub-version-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "dealhubio",
+  "specs": [
+   "openapi/_original/dealhubio-callout-api-readme-slices.json",
+   "openapi/_original/dealhubio-crm-api-readme-slices.json",
+   "openapi/_original/dealhubio-crm-import-api-readme-slices.json",
+   "openapi/_original/dealhubio-external-query-readme-slices.json",
+   "openapi/_original/dealhubio-headless-api-readme-slices.json",
+   "openapi/_original/dealhubio-partner-api-readme-slices.json",
+   "openapi/_original/dealhubio-pricing-api-readme-slices.json",
+   "openapi/_original/dealhubio-quote-api-readme-slices.json",
+   "openapi/_original/dealhubio-subskribe-api-readme-slices.json",
+   "openapi/_original/dealhubio-user-api-readme-slices.json",
+   "openapi/_original/dealhubio-version-api-readme-slices.json"
+  ]
+ },
+ {
+  "slug": "docusign",
+  "specs": [
+   "openapi/_original/docusign-admin-openapi-original.yml",
+   "openapi/_original/docusign-click-openapi-original.yml",
+   "openapi/_original/docusign-esignature-openapi.yml",
+   "openapi/_original/docusign-maestro-openapi-original.yml",
+   "openapi/_original/docusign-monitor-openapi-original.yml",
+   "openapi/_original/docusign-openapi-original.yml",
+   "openapi/_original/docusign-rooms-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "evisort",
+  "specs": [
+   "openapi/_original/evisort-openapi.yml"
+  ]
+ },
+ {
+  "slug": "getaccept",
+  "specs": [
+   "openapi/_original/getaccept-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "henchman",
+  "specs": [
+   "openapi/_original/henchman-openapi.yml"
+  ]
+ },
+ {
+  "slug": "ironclad",
+  "specs": [
+   "openapi/_original/ironclad-oauth-20-api-openapi.yml",
+   "openapi/_original/ironclad-public-api-openapi.yml",
+   "openapi/_original/ironclad-scim-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "jurisign",
+  "specs": [
+   "openapi/_original/jurisign-openapi.json"
+  ]
+ },
+ {
+  "slug": "juro",
+  "specs": [
+   "openapi/_original/juro-openapi.yml"
+  ]
+ },
+ {
+  "slug": "laurel",
+  "specs": [
+   "openapi/_original/laurel-identity-openapi-original.json",
+   "openapi/_original/laurel-ingestion-openapi-original.json",
+   "openapi/_original/laurel-time-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "lawmatics",
+  "specs": [
+   "openapi/_original/lawmatics-openapi.yml"
+  ]
+ },
+ {
+  "slug": "lawvu",
+  "specs": [
+   "openapi/_original/lawvu-invoices-openapi-original.json",
+   "openapi/_original/lawvu-openapi.yml"
+  ]
+ },
+ {
+  "slug": "leanlaw",
+  "specs": [
+   "openapi/_original/leanlaw-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "legal-ge-public-apis",
+  "specs": [
+   "openapi/_original/legal-ge-public-apis-openapi.json"
+  ]
+ },
+ {
+  "slug": "lex-machina",
+  "specs": [
+   "openapi/_original/lex-machina-openapi.yml"
+  ]
+ },
+ {
+  "slug": "lexion",
+  "specs": [
+   "openapi/_original/lexion-openapi.yml"
+  ]
+ },
+ {
+  "slug": "luminance",
+  "specs": [
+   "openapi/_original/luminance-api-v1-3-openapi-original.yml",
+   "openapi/_original/luminance-api-v1-4-openapi-original.yml",
+   "openapi/_original/luminance-public-api-v2-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "luminary",
+  "specs": [
+   "openapi/_original/luminary-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "mitratech",
+  "specs": [
+   "openapi/_original/mitratech-tap-prod-swagger.json",
+   "openapi/_original/mitratech-tap-swagger.json"
+  ]
+ },
+ {
+  "slug": "mycase",
+  "specs": [
+   "openapi/_original/mycase-open-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "notarize",
+  "specs": [
+   "openapi/_original/notarize-logs-api-specification-openapi.yml",
+   "openapi/_original/notarize-logs-api-specification-readme-slices.json",
+   "openapi/_original/notarize-oauth-2-0-api-specification-openapi.yml",
+   "openapi/_original/notarize-oauth-2-0-api-specification-readme-slices.json",
+   "openapi/_original/notarize-proof-business-api-specification-openapi.yml",
+   "openapi/_original/notarize-proof-business-api-specification-readme-slices.json",
+   "openapi/_original/notarize-proof-real-estate-api-specification-openapi.yml",
+   "openapi/_original/notarize-proof-real-estate-api-specification-readme-slices.json",
+   "openapi/_original/notarize-proof-verifiable-credentials-api-specification-openapi.yml",
+   "openapi/_original/notarize-proof-verifiable-credentials-api-specification-readme-slices.json",
+   "openapi/_original/notarize-scim-api-specification-openapi.yml",
+   "openapi/_original/notarize-scim-api-specification-readme-slices.json"
+  ]
+ },
+ {
+  "slug": "nuix",
+  "specs": [
+   "openapi/_original/nuix-core-engine-rest-api-openapi.yml",
+   "openapi/_original/nuix-nuix-ecc-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "oneflow",
+  "specs": [
+   "openapi/_original/oneflow-openapi.yml"
+  ]
+ },
+ {
+  "slug": "openlaws",
+  "specs": [
+   "openapi/_original/openlaws-openapi.json",
+   "openapi/_original/openlaws-openapi.yml"
+  ]
+ },
+ {
+  "slug": "osmaura",
+  "specs": [
+   "openapi/_original/osmaura-prospect-openapi-original.yml",
+   "openapi/_original/osmaura-prospect-openapi.yml"
+  ]
+ },
+ {
+  "slug": "practicepanther",
+  "specs": [
+   "openapi/_original/practicepanther-practicepanther-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "relativity",
+  "specs": [
+   "openapi/_original/relativity-analytics-conceptual-openapi.yml",
+   "openapi/_original/relativity-arm-openapi.yml",
+   "openapi/_original/relativity-arm-v3-openapi.yml",
+   "openapi/_original/relativity-automated-workflows-openapi.yml",
+   "openapi/_original/relativity-billing-v1-openapi.yml",
+   "openapi/_original/relativity-billing-v2-openapi.yml",
+   "openapi/_original/relativity-collect-openapi.yml",
+   "openapi/_original/relativity-data-visualization-openapi.yml",
+   "openapi/_original/relativity-dtsearch-openapi.yml",
+   "openapi/_original/relativity-environment-openapi.yml",
+   "openapi/_original/relativity-glacier-openapi.yml",
+   "openapi/_original/relativity-identity-openapi.yml",
+   "openapi/_original/relativity-imaging-openapi.yml",
+   "openapi/_original/relativity-import-openapi.yml",
+   "openapi/_original/relativity-infrastructure-openapi.yml",
+   "openapi/_original/relativity-legal-hold-openapi.yml",
+   "openapi/_original/relativity-mass-operations-openapi.yml",
+   "openapi/_original/relativity-notifications-openapi.yml",
+   "openapi/_original/relativity-object-manager-openapi.yml",
+   "openapi/_original/relativity-permissions-openapi.yml",
+   "openapi/_original/relativity-pivot-openapi.yml",
+   "openapi/_original/relativity-processing-v1-openapi.yml",
+   "openapi/_original/relativity-processing-v2-openapi.yml",
+   "openapi/_original/relativity-productions-openapi.yml",
+   "openapi/_original/relativity-review-service-openapi.yml",
+   "openapi/_original/relativity-rie-openapi.yml",
+   "openapi/_original/relativity-staging-reports-openapi.yml",
+   "openapi/_original/relativity-structured-analytics-openapi.yml",
+   "openapi/_original/relativity-telemetry-openapi.yml",
+   "openapi/_original/relativity-transfer-openapi.yml",
+   "openapi/_original/relativity-usage-reports-openapi.yml",
+   "openapi/_original/relativity-workspace-openapi.yml"
+  ]
+ },
+ {
+  "slug": "robin-ai",
+  "specs": [
+   "openapi/_original/robin-ai-openapi.yml"
+  ]
+ },
+ {
+  "slug": "rocket-lawyer",
+  "specs": [
+   "openapi/_original/rocket-lawyer-authentication-api-openapi.yml",
+   "openapi/_original/rocket-lawyer-events-api-openapi.yml",
+   "openapi/_original/rocket-lawyer-rocketdocument-api-openapi.yml",
+   "openapi/_original/rocket-lawyer-rocketsign-binders-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "rocket-matter",
+  "specs": [
+   "openapi/_original/rocket-matter-openapi.json"
+  ]
+ },
+ {
+  "slug": "sap-ariba",
+  "specs": [
+   "openapi/_original/sap-ariba-procurement-api.yml"
+  ]
+ },
+ {
+  "slug": "signsealship",
+  "specs": [
+   "openapi/_original/signsealship-partner-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "sirion",
+  "specs": [
+   "openapi/_original/sirion-openapi.yml"
+  ]
+ },
+ {
+  "slug": "spotdraft",
+  "specs": [
+   "openapi/_original/spotdraft-openapi.yml"
+  ]
+ },
+ {
+  "slug": "termscout",
+  "specs": [
+   "openapi/_original/termscout-data-openapi.yml",
+   "openapi/_original/termscout-openapi.json"
+  ]
+ },
+ {
+  "slug": "trelica",
+  "specs": [
+   "openapi/_original/trelica-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "tropic",
+  "specs": [
+   "openapi/_original/tropic-openapi.yml"
+  ]
+ },
+ {
+  "slug": "vaquill-ai",
+  "specs": [
+   "openapi/_original/vaquill-ai-india-openapi.json",
+   "openapi/_original/vaquill-ai-india-openapi.yml",
+   "openapi/_original/vaquill-ai-openapi.json",
+   "openapi/_original/vaquill-ai-openapi.yml",
+   "openapi/_original/vaquill-ai-workspace-openapi.json",
+   "openapi/_original/vaquill-ai-workspace-openapi.yml"
+  ]
+ },
+ {
+  "slug": "vlex",
+  "specs": [
+   "openapi/_original/vlex-iceberg-anonymization-openapi.yml",
+   "openapi/_original/vlex-iceberg-legal-research-openapi.yml"
+  ]
+ }
+]

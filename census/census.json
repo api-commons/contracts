@@ -1,0 +1,1352 @@
+{
+ "cohort_size": 45,
+ "unreadable": [],
+ "concepts": {
+  "contract": {
+   "agree-com": {
+    "segments": [
+     "agreements"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "PATCH item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "current_signing_order": "integer",
+     "deleted_at": "string",
+     "delivery_mode": "string",
+     "docs_url": "string",
+     "ends_at": "string",
+     "executed_at": "string",
+     "field_values": "object",
+     "forward_signature_enabled": "boolean",
+     "id": "string",
+     "invoice_template_id": "string",
+     "last_reminder_sent_at": "string",
+     "name": "string",
+     "organization_id": "string",
+     "payments_enabled": "boolean",
+     "preview_url": "string",
+     "reminder_schedule": "string",
+     "reminder_scheduled_at": "string",
+     "share_url": "string",
+     "signers": "array",
+     "signing_order": "array",
+     "signing_order_enabled": "boolean",
+     "starts_at": "string",
+     "status": "string",
+     "version": "integer",
+     "invoice": "object",
+     "recipients": "array",
+     "template_id": "string"
+    },
+    "evidence": [
+     "openapi/_original/agree-com-api-openapi-original.json#DELETE /api/v1/agreements/{id}",
+     "openapi/_original/agree-com-api-openapi-original.json#GET /api/v1/agreements",
+     "openapi/_original/agree-com-api-openapi-original.json#GET /api/v1/agreements/{id}",
+     "openapi/_original/agree-com-api-openapi-original.json#PATCH /api/v1/agreements/{id}",
+     "openapi/_original/agree-com-api-openapi-original.json#POST /api/v1/agreements",
+     "openapi/_original/agree-com-api-openapi-original.json#PUT /api/v1/agreements/{id}"
+    ]
+   },
+   "concord-com": {
+    "segments": [
+     "agreements"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "PATCH item",
+     "POST collection"
+    ],
+    "properties": {
+     "id": "string",
+     "uid": null,
+     "source": "object",
+     "folderId": "number",
+     "status": "string",
+     "parametersSource": "string",
+     "title": "string",
+     "description": "string",
+     "tags": "array",
+     "items": "array",
+     "numberOfItems": "number",
+     "numberOfItemsByPage": "number",
+     "page": "number",
+     "result": "string",
+     "total": "integer",
+     "totalInvitations": "integer",
+     "lastPublicVersion": "integer",
+     "lock": "object",
+     "metadata": "object",
+     "canUseVersioning": "boolean",
+     "canUseClausePicker": "boolean",
+     "canUseSingleClause": "boolean",
+     "canUseOrganizationFieldItem": "boolean",
+     "canHaveGuestAIExtraction": "boolean",
+     "permission": "string",
+     "creation": "object"
+    },
+    "evidence": [
+     "openapi/_original/concord-com-openapi.yml#DELETE /organizations/{organizationId}/agreements/{agreementUid}",
+     "openapi/_original/concord-com-openapi.yml#GET /organizations/{organizationId}/agreements/{agreementUid}",
+     "openapi/_original/concord-com-openapi.yml#GET /organizations/{organizationId}/folders/{folderId}/agreements",
+     "openapi/_original/concord-com-openapi.yml#GET /user/me/organizations/{organizationId}/agreements",
+     "openapi/_original/concord-com-openapi.yml#PATCH /organizations/{organizationId}/agreements/{agreementUid}",
+     "openapi/_original/concord-com-openapi.yml#POST /organizations/{organizationId}/agreements"
+    ]
+   },
+   "conga": {
+    "segments": [
+     "contracts",
+     "agreement"
+    ],
+    "operations": [
+     "DELETE collection",
+     "DELETE item",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "Success": "boolean",
+     "Data": "object",
+     "Warnings": "array",
+     "Errors": "array",
+     "OverrideValues": "object",
+     "id": "string",
+     "name": "string",
+     "number": "string",
+     "accountName": "string",
+     "owner": "string",
+     "statusCategory": "string",
+     "status": "string",
+     "endDate": "string",
+     "createdDate": "string",
+     "recordType": "string",
+     "modifiedOn": "string",
+     "modifiedById": "string",
+     "modifiedByName": "string",
+     "contactId": "string",
+     "startDate": "string",
+     "statusKey": "string",
+     "versionAware": "string",
+     "customProperties": "object",
+     "source": "string",
+     "legalEntity": "string"
+    },
+    "evidence": [
+     "openapi/_original/conga-contracts.json#DELETE /api/clm/v1/contracts",
+     "openapi/_original/conga-contracts.json#DELETE /api/clm/v1/contracts/{contractId}",
+     "openapi/_original/conga-contracts.json#GET /api/clm/v1/contracts/{contractId}",
+     "openapi/_original/conga-contracts.json#POST /api/clm/v1/contracts",
+     "openapi/_original/conga-contracts.json#PUT /api/clm/v1/contracts/{contractId}",
+     "openapi/_original/conga-quote.json#POST /quotes/{Id}/agreement",
+     "openapi/_original/conga-x-author.json#GET /api/xauthor/v1/contracts/{contractId}",
+     "openapi/_original/conga-x-author.json#POST /api/xauthor/v1/contracts"
+    ]
+   },
+   "docusign": {
+    "segments": [
+     "agreements"
+    ],
+    "operations": [
+     "GET item",
+     "POST collection"
+    ],
+    "properties": {
+     "clientUserId": "string",
+     "hostOrigin": "string",
+     "metadata": "string"
+    },
+    "evidence": [
+     "openapi/_original/docusign-click-openapi-original.yml#GET /v1/accounts/{accountId}/clickwraps/{clickwrapId}/agreements/{agreementId}",
+     "openapi/_original/docusign-click-openapi-original.yml#POST /v1/accounts/{accountId}/clickwraps/{clickwrapId}/agreements"
+    ]
+   },
+   "juro": {
+    "segments": [
+     "contracts"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "PATCH item",
+     "POST collection"
+    ],
+    "properties": {},
+    "evidence": [
+     "openapi/_original/juro-openapi.yml#DELETE /contracts/{contract_id}",
+     "openapi/_original/juro-openapi.yml#GET /contracts",
+     "openapi/_original/juro-openapi.yml#GET /contracts/{contract_id}",
+     "openapi/_original/juro-openapi.yml#PATCH /contracts/{contract_id}",
+     "openapi/_original/juro-openapi.yml#POST /contracts"
+    ]
+   },
+   "lawvu": {
+    "segments": [
+     "contracts"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item",
+     "PATCH item",
+     "POST collection"
+    ],
+    "properties": {
+     "id": "integer",
+     "name": "string",
+     "document": null,
+     "type": null,
+     "owner": null,
+     "expiry": "string",
+     "externalId": "string",
+     "fields": "object",
+     "restricted": "boolean",
+     "status": null,
+     "teamAssigned": null,
+     "created": null
+    },
+    "evidence": [
+     "openapi/_original/lawvu-openapi.yml#GET /v2/contracts",
+     "openapi/_original/lawvu-openapi.yml#GET /v2/contracts/{contractId}",
+     "openapi/_original/lawvu-openapi.yml#PATCH /v2/contracts/{contractId}",
+     "openapi/_original/lawvu-openapi.yml#POST /v2/contracts"
+    ]
+   },
+   "oneflow": {
+    "segments": [
+     "contracts"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "PUT item"
+    ],
+    "properties": {
+     "id": "integer",
+     "state": "string",
+     "template_id": "integer",
+     "workspace_id": "integer",
+     "name": "string",
+     "created_time": "string",
+     "updated_time": "string"
+    },
+    "evidence": [
+     "openapi/_original/oneflow-openapi.yml#DELETE /contracts/{contract_id}",
+     "openapi/_original/oneflow-openapi.yml#GET /contracts",
+     "openapi/_original/oneflow-openapi.yml#GET /contracts/{contract_id}",
+     "openapi/_original/oneflow-openapi.yml#PUT /contracts/{contract_id}"
+    ]
+   },
+   "sirion": {
+    "segments": [
+     "contracts"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item",
+     "PATCH item",
+     "POST collection"
+    ],
+    "properties": {
+     "title": "string",
+     "status": "string",
+     "counterparty": "string",
+     "effectiveDate": "string",
+     "expiryDate": "string",
+     "value": "number",
+     "currency": "string",
+     "id": "string",
+     "createdAt": "string"
+    },
+    "evidence": [
+     "openapi/_original/sirion-openapi.yml#GET /contracts",
+     "openapi/_original/sirion-openapi.yml#GET /contracts/{contractId}",
+     "openapi/_original/sirion-openapi.yml#PATCH /contracts/{contractId}",
+     "openapi/_original/sirion-openapi.yml#POST /contracts"
+    ]
+   },
+   "spotdraft": {
+    "segments": [
+     "contracts"
+    ],
+    "operations": [
+     "GET collection",
+     "POST collection"
+    ],
+    "properties": {
+     "id": "string",
+     "created": "string",
+     "contract_name": "string",
+     "contract_link": "string",
+     "contract_status": "string",
+     "created_by": "string",
+     "counter_party_name": "string",
+     "contract_type_name": "string",
+     "contract_type_id": "integer",
+     "external_metadata": "object",
+     "reference_id": "string",
+     "created_by_user_name": "string",
+     "created_by_user_email": "string",
+     "created_by_workspace": "integer",
+     "contract_id": "integer",
+     "contract_template_id": "integer",
+     "contract_data": null,
+     "counter_party_details": "array",
+     "entity_reference_id": "string",
+     "workflow_config": "object",
+     "send_to_counterparty_config": null,
+     "signatories": "array",
+     "is_embedded_contract": "boolean"
+    },
+    "evidence": [
+     "openapi/_original/spotdraft-openapi.yml#GET /api/v1/public/contracts",
+     "openapi/_original/spotdraft-openapi.yml#GET /api/v2.1/public/contracts/",
+     "openapi/_original/spotdraft-openapi.yml#GET /api/v2/public/contracts/",
+     "openapi/_original/spotdraft-openapi.yml#POST /api/v1/public/contracts",
+     "openapi/_original/spotdraft-openapi.yml#POST /api/v2.1/public/contracts/",
+     "openapi/_original/spotdraft-openapi.yml#POST /api/v2/public/contracts/"
+    ]
+   },
+   "termscout": {
+    "segments": [
+     "contracts"
+    ],
+    "operations": [
+     "GET collection",
+     "POST collection"
+    ],
+    "properties": {
+     "contract_id": "string",
+     "status": "string",
+     "template_id": "number",
+     "primary_agreement": "string",
+     "document_id": "string"
+    },
+    "evidence": [
+     "openapi/_original/termscout-data-openapi.yml#GET /contracts",
+     "openapi/_original/termscout-data-openapi.yml#POST /contracts",
+     "openapi/_original/termscout-openapi.json#GET /contracts",
+     "openapi/_original/termscout-openapi.json#POST /contracts"
+    ]
+   },
+   "tropic": {
+    "segments": [
+     "contracts"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "id": "string",
+     "name": "string",
+     "supplier_id": "string",
+     "supplier_name": "string",
+     "status": "string",
+     "start_date": "string",
+     "end_date": "string",
+     "renewal_date": "string",
+     "total_value": "number",
+     "currency": "string",
+     "owner_id": "string",
+     "documents": "array",
+     "created_at": "string",
+     "updated_at": "string"
+    },
+    "evidence": [
+     "openapi/_original/tropic-openapi.yml#DELETE /contracts/{id}",
+     "openapi/_original/tropic-openapi.yml#GET /contracts",
+     "openapi/_original/tropic-openapi.yml#GET /contracts/{id}",
+     "openapi/_original/tropic-openapi.yml#POST /contracts",
+     "openapi/_original/tropic-openapi.yml#PUT /contracts/{id}"
+    ]
+   }
+  },
+  "contract_template": {
+   "agree-com": {
+    "segments": [
+     "templates"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item"
+    ],
+    "properties": {
+     "field_names": "array",
+     "id": "string",
+     "name": "string"
+    },
+    "evidence": [
+     "openapi/_original/agree-com-api-openapi-original.json#GET /api/v1/agreements/templates",
+     "openapi/_original/agree-com-api-openapi-original.json#GET /api/v1/agreements/templates/{id}"
+    ]
+   },
+   "conga": {
+    "segments": [
+     "templates"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item"
+    ],
+    "properties": {
+     "Success": "boolean",
+     "Data": "string",
+     "Warnings": "array",
+     "Errors": "array",
+     "type": "string",
+     "templateGroup": "string",
+     "orgId": "string",
+     "description": "string",
+     "fileName": "string",
+     "fileExtension": "string",
+     "documentFileSize": "integer",
+     "id": "string",
+     "key": "string",
+     "name": "string",
+     "repository": "string",
+     "contentType": "string",
+     "lastModifiedDate": "string",
+     "templateType": "string",
+     "referenceId": "string",
+     "templateTypeObject": "object",
+     "businessContext": "string",
+     "businessObject": "object",
+     "guidance": "string",
+     "revisionDate": "string",
+     "agreementTypes": "string",
+     "category": "string",
+     "subcategory": "string",
+     "language": "string",
+     "locale": "string",
+     "localeId": "string",
+     "keywords": "string",
+     "isActive": "boolean",
+     "mergefieldList": "string",
+     "contentText": "string",
+     "termException": "string",
+     "termExceptionName": "string",
+     "attachmentId": "string",
+     "clonedFromId": "string",
+     "clonedFromReferenceId": "string",
+     "clonedFromTemplateName": "string",
+     "needsPublishing": "boolean",
+     "vf_PageName": "string",
+     "activeVersionId": "string",
+     "outputPage": "string",
+     "createVisualForcePageEnum": "integer",
+     "formatFrameworkEnum": "integer",
+     "lastModifiedBy": "string",
+     "lastModified": "string",
+     "listAgreementTypes": "array",
+     "checkoutVersionId": "string",
+     "checkoutById": "string",
+     "checkoutByName": "string",
+     "checkoutDate": "string",
+     "checkoutVersionName": "string",
+     "sendForApprovalVersion": "string",
+     "activeVersionName": "string",
+     "activeVersionNumber": "string",
+     "activeVersionComments": "string",
+     "mergeFieldConsolidated": "string",
+     "isAlternateClause": "boolean",
+     "clauseType": "string",
+     "eTag": "string",
+     "externalId": "string",
+     "enableAgreementClauseTracking": "boolean",
+     "customProperties": "object",
+     "createdBy": "string",
+     "createdDate": "string",
+     "clauseFormat": "integer",
+     "clauseBehavior": "integer",
+     "source": "integer",
+     "documentFileType": "string",
+     "extendedProperties": "string",
+     "stage": "integer",
+     "extractionReferenceId": "string",
+     "isDraft": "boolean"
+    },
+    "evidence": [
+     "openapi/_original/conga-contracts.json#GET /api/clm/v1/import/templates/{format}",
+     "openapi/_original/conga-esignature.json#GET /api/esign/v1/esignatures/templates",
+     "openapi/_original/conga-ingress.json#GET /v1/Salesforce/templates",
+     "openapi/_original/conga-x-author.json#GET /api/xauthor/v1/contracts/{contractId}/templates"
+    ]
+   },
+   "contractbook": {
+    "segments": [
+     "templates"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item"
+    ],
+    "properties": {
+     "created_at": "string",
+     "description": "string",
+     "id": "string",
+     "language": "string",
+     "location": "object",
+     "owned": "boolean",
+     "owner_id": "string",
+     "slug": "string",
+     "title": "string",
+     "updated_at": "string",
+     "attachments": "array",
+     "company_logo_url": "string",
+     "data_fields": "array",
+     "default_message": "string",
+     "parties": "array",
+     "signing_order_mode": "string",
+     "template": "object"
+    },
+    "evidence": [
+     "openapi/_original/contractbook-openapi.json#GET /templates",
+     "openapi/_original/contractbook-openapi.json#GET /templates/{id}"
+    ]
+   },
+   "docusign": {
+    "segments": [
+     "templates"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "envelopeTemplates": "array",
+     "resultSetSize": "string",
+     "totalSetSize": "string",
+     "startPosition": "string",
+     "endPosition": "string",
+     "nextUri": "string",
+     "previousUri": "string",
+     "folders": "array",
+     "templateId": "string",
+     "name": "string",
+     "uri": "string",
+     "description": "string",
+     "created": "string",
+     "lastModified": "string",
+     "lastUsed": "string",
+     "shared": "string",
+     "folderId": "string",
+     "folderName": "string",
+     "owner": "object",
+     "emailSubject": "string",
+     "emailBlurb": "string",
+     "signingLocation": "string",
+     "documents": "array",
+     "recipients": "object",
+     "notification": "object",
+     "customFields": "object",
+     "status": "string",
+     "documentEndPage": "string",
+     "documentId": "string",
+     "documentStartPage": "string",
+     "errorDetails": "object",
+     "allowMarkup": "string",
+     "allowReassign": "string",
+     "allowViewHistory": "string",
+     "asynchronous": "string",
+     "attachmentsUri": "string",
+     "authoritativeCopy": "string",
+     "authoritativeCopyDefault": "string",
+     "autoNavigation": "string",
+     "brandId": "string",
+     "brandLock": "string",
+     "certificateUri": "string",
+     "completedDateTime": "string",
+     "copyRecipientData": "string",
+     "createdDateTime": "string",
+     "customFieldsUri": "string",
+     "declinedDateTime": "string",
+     "deletedDateTime": "string",
+     "deliveredDateTime": "string",
+     "disableResponsiveDocument": "string",
+     "documentsCombinedUri": "string",
+     "documentsUri": "string",
+     "emailSettings": "object",
+     "enableWetSign": "string",
+     "enforceSignerVisibility": "string",
+     "envelopeId": "string",
+     "envelopeIdStamping": "string",
+     "envelopeTemplateDefinition": "object",
+     "envelopeUri": "string",
+     "initialSentDateTime": "string",
+     "is21CFRPart11": "string",
+     "isSignatureProviderEnvelope": "string",
+     "lastModifiedDateTime": "string",
+     "lockInformation": "object",
+     "messageLock": "string",
+     "notificationUri": "string",
+     "purgeState": "string",
+     "recipientsLock": "string",
+     "recipientsUri": "string",
+     "sentDateTime": "string",
+     "signerCanSignOnMobile": "string",
+     "statusChangedDateTime": "string",
+     "templatesUri": "string",
+     "transactionId": "string",
+     "useDisclosure": "string",
+     "voidedDateTime": "string",
+     "voidedReason": "string"
+    },
+    "evidence": [
+     "openapi/_original/docusign-esignature-openapi.yml#DELETE /accounts/{accountId}/templates/{templateId}",
+     "openapi/_original/docusign-esignature-openapi.yml#GET /accounts/{accountId}/templates",
+     "openapi/_original/docusign-esignature-openapi.yml#GET /accounts/{accountId}/templates/{templateId}",
+     "openapi/_original/docusign-esignature-openapi.yml#POST /accounts/{accountId}/templates",
+     "openapi/_original/docusign-esignature-openapi.yml#PUT /accounts/{accountId}/templates/{templateId}",
+     "openapi/_original/docusign-openapi-original.yml#DELETE /v2/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/templates/{templateId}",
+     "openapi/_original/docusign-openapi-original.yml#GET /v2/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/templates",
+     "openapi/_original/docusign-openapi-original.yml#GET /v2/accounts/{accountId}/envelopes/{envelopeId}/templates",
+     "openapi/_original/docusign-openapi-original.yml#GET /v2/accounts/{accountId}/templates",
+     "openapi/_original/docusign-openapi-original.yml#GET /v2/accounts/{accountId}/templates/{templateId}",
+     "openapi/_original/docusign-openapi-original.yml#POST /v2/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/templates",
+     "openapi/_original/docusign-openapi-original.yml#POST /v2/accounts/{accountId}/envelopes/{envelopeId}/templates"
+    ]
+   },
+   "getaccept": {
+    "segments": [
+     "templates"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "code": "string",
+     "entity_id": "string",
+     "id": "string",
+     "name": "string",
+     "tags": "string",
+     "created_at": "string",
+     "external_editor_type": "string",
+     "field_count": "integer",
+     "is_editable": "boolean",
+     "is_private": "boolean",
+     "page_count": "integer",
+     "role_count": "integer",
+     "sender_name": "string",
+     "sender_thumb_url": "string",
+     "thumb_url": "string",
+     "type": "string",
+     "user_id": "string",
+     "video_id": "string",
+     "video_thumb_url": "string"
+    },
+    "evidence": [
+     "openapi/_original/getaccept-openapi-original.json#GET /email/templates",
+     "openapi/_original/getaccept-openapi-original.json#GET /email/templates/{emailTemplateId}",
+     "openapi/_original/getaccept-openapi-original.json#GET /templates",
+     "openapi/_original/getaccept-openapi-original.json#POST /email/templates",
+     "openapi/_original/getaccept-openapi-original.json#PUT /email/templates/{emailTemplateId}"
+    ]
+   },
+   "jurisign": {
+    "segments": [
+     "templates"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item"
+    ],
+    "properties": {
+     "id": "string",
+     "name": "string",
+     "description": "string",
+     "subject": "string",
+     "signing_order_type": "string",
+     "expiry_hours": "integer",
+     "require_selfie": "boolean",
+     "requires_paraph": "boolean",
+     "signer_count": "integer",
+     "has_document": "boolean",
+     "usage_count": "integer",
+     "last_used_at": "string",
+     "created_at": "string",
+     "created_by": "object",
+     "message": "string",
+     "signers": "array",
+     "zones": "array",
+     "document": "object"
+    },
+    "evidence": [
+     "openapi/_original/jurisign-openapi.json#DELETE /templates/{id}",
+     "openapi/_original/jurisign-openapi.json#GET /templates",
+     "openapi/_original/jurisign-openapi.json#GET /templates/{id}"
+    ]
+   },
+   "juro": {
+    "segments": [
+     "templates"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item"
+    ],
+    "properties": {},
+    "evidence": [
+     "openapi/_original/juro-openapi.yml#GET /templates",
+     "openapi/_original/juro-openapi.yml#GET /templates/{template_id}"
+    ]
+   },
+   "notarize": {
+    "segments": [
+     "templates"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "id": "string",
+     "created_at": "string",
+     "updated_at": "string",
+     "permalink": "string",
+     "name": "string"
+    },
+    "evidence": [
+     "openapi/_original/notarize-proof-business-api-specification-openapi.yml#GET /v1/templates",
+     "openapi/_original/notarize-proof-real-estate-api-specification-openapi.yml#GET /mortgage/v2/templates"
+    ]
+   },
+   "oneflow": {
+    "segments": [
+     "templates"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "id": "integer",
+     "name": "string",
+     "template_type_id": "integer",
+     "workspace_id": "integer",
+     "active": "boolean"
+    },
+    "evidence": [
+     "openapi/_original/oneflow-openapi.yml#GET /templates"
+    ]
+   },
+   "robin-ai": {
+    "segments": [
+     "templates"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "name": "string",
+     "prompt_text": "string",
+     "answer_format": "string"
+    },
+    "evidence": [
+     "openapi/_original/robin-ai-openapi.yml#GET /v1/templates"
+    ]
+   },
+   "rocket-lawyer": {
+    "segments": [
+     "templates"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item"
+    ],
+    "properties": {
+     "templateId": "string",
+     "templateName": "string",
+     "shortDescription": "string",
+     "longDescription": "string",
+     "medianMinutesToComplete": "integer",
+     "type": "string",
+     "memberOf": "array",
+     "thumbnailRef": "string",
+     "previewRef": "string"
+    },
+    "evidence": [
+     "openapi/_original/rocket-lawyer-rocketdocument-api-openapi.yml#GET /templates",
+     "openapi/_original/rocket-lawyer-rocketdocument-api-openapi.yml#GET /templates/{templateId}"
+    ]
+   },
+   "spotdraft": {
+    "segments": [
+     "templates"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item",
+     "PATCH item"
+    ],
+    "properties": {
+     "id": "integer",
+     "name": "string",
+     "contract_type_id": "integer",
+     "tags": "array"
+    },
+    "evidence": [
+     "openapi/_original/spotdraft-openapi.yml#GET /api/v1/public/templates/",
+     "openapi/_original/spotdraft-openapi.yml#GET /api/v2.1/public/templates/",
+     "openapi/_original/spotdraft-openapi.yml#GET /api/v2.1/public/templates/{template_id}/",
+     "openapi/_original/spotdraft-openapi.yml#GET /api/v2/public/templates/",
+     "openapi/_original/spotdraft-openapi.yml#GET /api/v2/public/templates/{template_id}/",
+     "openapi/_original/spotdraft-openapi.yml#PATCH /api/v2.1/public/templates/{template_id}/",
+     "openapi/_original/spotdraft-openapi.yml#PATCH /api/v2/public/templates/{template_id}/"
+    ]
+   },
+   "vaquill-ai": {
+    "segments": [
+     "templates"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "id": "string",
+     "title": "string",
+     "description": null,
+     "category": "string",
+     "sourceFilename": null,
+     "createdAt": "string",
+     "updatedAt": "string",
+     "variables": "array",
+     "sections": "array",
+     "contentMarkdown": "string"
+    },
+    "evidence": [
+     "openapi/_original/vaquill-ai-workspace-openapi.json#DELETE /v1/templates/{templateId}",
+     "openapi/_original/vaquill-ai-workspace-openapi.json#GET /v1/templates",
+     "openapi/_original/vaquill-ai-workspace-openapi.json#GET /v1/templates/{templateId}",
+     "openapi/_original/vaquill-ai-workspace-openapi.json#POST /v1/templates",
+     "openapi/_original/vaquill-ai-workspace-openapi.json#PUT /v1/templates/{templateId}",
+     "openapi/_original/vaquill-ai-workspace-openapi.yml#DELETE /v1/templates/{templateId}",
+     "openapi/_original/vaquill-ai-workspace-openapi.yml#GET /v1/templates",
+     "openapi/_original/vaquill-ai-workspace-openapi.yml#GET /v1/templates/{templateId}",
+     "openapi/_original/vaquill-ai-workspace-openapi.yml#POST /v1/templates",
+     "openapi/_original/vaquill-ai-workspace-openapi.yml#PUT /v1/templates/{templateId}"
+    ]
+   }
+  }
+ },
+ "naming": {
+  "path_segment": {
+   "lower": [
+    "agree-com",
+    "apperio",
+    "callidus-legal-ai",
+    "concord-com",
+    "conga",
+    "contractbook",
+    "dealhub",
+    "docusign",
+    "evisort",
+    "getaccept",
+    "ironclad",
+    "jurisign",
+    "juro",
+    "laurel",
+    "lawmatics",
+    "lawvu",
+    "leanlaw",
+    "legal-ge-public-apis",
+    "lex-machina",
+    "luminance",
+    "luminary",
+    "mitratech",
+    "mycase",
+    "notarize",
+    "nuix",
+    "oneflow",
+    "openlaws",
+    "osmaura",
+    "practicepanther",
+    "relativity",
+    "robin-ai",
+    "rocket-lawyer",
+    "rocket-matter",
+    "sap-ariba",
+    "signsealship",
+    "sirion",
+    "spotdraft",
+    "termscout",
+    "trelica",
+    "tropic",
+    "vaquill-ai",
+    "vlex"
+   ],
+   "kebab-case": [
+    "apperio",
+    "callidus-legal-ai",
+    "concord-com",
+    "conga",
+    "dealhub",
+    "getaccept",
+    "ironclad",
+    "jurisign",
+    "juro",
+    "laurel",
+    "leanlaw",
+    "legal-ge-public-apis",
+    "lex-machina",
+    "luminary",
+    "notarize",
+    "osmaura",
+    "practicepanther",
+    "relativity",
+    "rocket-lawyer",
+    "signsealship",
+    "sirion",
+    "spotdraft",
+    "termscout",
+    "vaquill-ai",
+    "vlex"
+   ],
+   "snake_case": [
+    "agree-com",
+    "callidus-legal-ai",
+    "conga",
+    "contractbook",
+    "dealhub",
+    "docusign",
+    "getaccept",
+    "lawmatics",
+    "luminance",
+    "mycase",
+    "notarize",
+    "oneflow",
+    "spotdraft"
+   ],
+   "camelCase": [
+    "conga",
+    "dealhub",
+    "docusign",
+    "lawvu",
+    "luminance",
+    "nuix",
+    "practicepanther",
+    "relativity",
+    "rocket-lawyer",
+    "rocket-matter",
+    "sap-ariba"
+   ],
+   "PascalCase": [
+    "conga",
+    "ironclad",
+    "lex-machina",
+    "mitratech",
+    "notarize",
+    "practicepanther",
+    "relativity",
+    "rocket-matter",
+    "trelica"
+   ],
+   "other": [
+    "callidus-legal-ai",
+    "concord-com",
+    "conga",
+    "docusign",
+    "notarize",
+    "relativity",
+    "rocket-matter"
+   ]
+  },
+  "path_param": {
+   "lower": [
+    "agree-com",
+    "apperio",
+    "callidus-legal-ai",
+    "concord-com",
+    "conga",
+    "contractbook",
+    "dealhub",
+    "ironclad",
+    "jurisign",
+    "laurel",
+    "lawmatics",
+    "lawvu",
+    "leanlaw",
+    "legal-ge-public-apis",
+    "lex-machina",
+    "luminance",
+    "luminary",
+    "mitratech",
+    "notarize",
+    "nuix",
+    "openlaws",
+    "practicepanther",
+    "relativity",
+    "signsealship",
+    "tropic"
+   ],
+   "camelCase": [
+    "concord-com",
+    "conga",
+    "dealhub",
+    "docusign",
+    "evisort",
+    "getaccept",
+    "ironclad",
+    "laurel",
+    "lawvu",
+    "mitratech",
+    "mycase",
+    "nuix",
+    "practicepanther",
+    "relativity",
+    "rocket-lawyer",
+    "sap-ariba",
+    "signsealship",
+    "sirion",
+    "trelica",
+    "vaquill-ai"
+   ],
+   "snake_case": [
+    "callidus-legal-ai",
+    "dealhub",
+    "juro",
+    "lawmatics",
+    "lex-machina",
+    "luminance",
+    "notarize",
+    "oneflow",
+    "openlaws",
+    "robin-ai",
+    "spotdraft",
+    "vaquill-ai",
+    "vlex"
+   ],
+   "kebab-case": [
+    "apperio",
+    "luminance",
+    "termscout"
+   ],
+   "PascalCase": [
+    "conga"
+   ],
+   "other": [
+    "relativity"
+   ]
+  },
+  "query_param": {
+   "lower": [
+    "agree-com",
+    "apperio",
+    "callidus-legal-ai",
+    "concord-com",
+    "conga",
+    "contractbook",
+    "dealhub",
+    "docusign",
+    "evisort",
+    "getaccept",
+    "ironclad",
+    "jurisign",
+    "juro",
+    "laurel",
+    "lawmatics",
+    "lawvu",
+    "leanlaw",
+    "legal-ge-public-apis",
+    "lex-machina",
+    "luminance",
+    "luminary",
+    "mitratech",
+    "notarize",
+    "nuix",
+    "oneflow",
+    "openlaws",
+    "osmaura",
+    "practicepanther",
+    "relativity",
+    "robin-ai",
+    "rocket-lawyer",
+    "sap-ariba",
+    "signsealship",
+    "sirion",
+    "spotdraft",
+    "termscout",
+    "trelica",
+    "tropic",
+    "vaquill-ai"
+   ],
+   "snake_case": [
+    "agree-com",
+    "apperio",
+    "callidus-legal-ai",
+    "conga",
+    "contractbook",
+    "dealhub",
+    "docusign",
+    "getaccept",
+    "ironclad",
+    "jurisign",
+    "lawmatics",
+    "legal-ge-public-apis",
+    "lex-machina",
+    "luminance",
+    "luminary",
+    "notarize",
+    "oneflow",
+    "openlaws",
+    "practicepanther",
+    "robin-ai",
+    "signsealship",
+    "spotdraft",
+    "tropic"
+   ],
+   "camelCase": [
+    "callidus-legal-ai",
+    "concord-com",
+    "conga",
+    "dealhub",
+    "docusign",
+    "evisort",
+    "getaccept",
+    "ironclad",
+    "laurel",
+    "leanlaw",
+    "lex-machina",
+    "luminance",
+    "mitratech",
+    "notarize",
+    "nuix",
+    "practicepanther",
+    "relativity",
+    "rocket-lawyer",
+    "sap-ariba",
+    "sirion",
+    "trelica",
+    "vaquill-ai"
+   ],
+   "other": [
+    "apperio",
+    "concord-com",
+    "contractbook",
+    "dealhub",
+    "lawvu",
+    "mitratech",
+    "notarize",
+    "oneflow",
+    "practicepanther",
+    "spotdraft"
+   ],
+   "kebab-case": [
+    "apperio",
+    "conga",
+    "luminance",
+    "termscout"
+   ],
+   "PascalCase": [
+    "conga",
+    "relativity"
+   ]
+  },
+  "pagination_param": {
+   "limit": [
+    "apperio",
+    "callidus-legal-ai",
+    "concord-com",
+    "conga",
+    "dealhub",
+    "docusign",
+    "getaccept",
+    "juro",
+    "laurel",
+    "leanlaw",
+    "legal-ge-public-apis",
+    "luminance",
+    "luminary",
+    "notarize",
+    "nuix",
+    "oneflow",
+    "openlaws",
+    "osmaura",
+    "relativity",
+    "robin-ai",
+    "rocket-lawyer",
+    "sap-ariba",
+    "signsealship",
+    "spotdraft",
+    "trelica",
+    "vaquill-ai"
+   ],
+   "page": [
+    "agree-com",
+    "apperio",
+    "callidus-legal-ai",
+    "concord-com",
+    "conga",
+    "docusign",
+    "evisort",
+    "ironclad",
+    "jurisign",
+    "laurel",
+    "mitratech",
+    "openlaws",
+    "practicepanther",
+    "relativity",
+    "sirion",
+    "spotdraft",
+    "tropic",
+    "vaquill-ai"
+   ],
+   "page_size": [
+    "agree-com",
+    "apperio",
+    "callidus-legal-ai",
+    "conga",
+    "contractbook",
+    "docusign",
+    "evisort",
+    "ironclad",
+    "laurel",
+    "lex-machina",
+    "mitratech",
+    "practicepanther",
+    "relativity",
+    "rocket-lawyer",
+    "sirion",
+    "vaquill-ai"
+   ],
+   "offset": [
+    "callidus-legal-ai",
+    "concord-com",
+    "dealhub",
+    "getaccept",
+    "leanlaw",
+    "luminance",
+    "notarize",
+    "nuix",
+    "oneflow",
+    "rocket-lawyer",
+    "vaquill-ai"
+   ],
+   "cursor": [
+    "callidus-legal-ai",
+    "conga",
+    "contractbook",
+    "dealhub",
+    "docusign",
+    "laurel",
+    "notarize",
+    "rocket-lawyer",
+    "vaquill-ai"
+   ],
+   "count": [
+    "callidus-legal-ai",
+    "docusign",
+    "ironclad",
+    "notarize",
+    "relativity",
+    "trelica"
+   ],
+   "skip": [
+    "conga",
+    "juro",
+    "lawvu",
+    "mitratech",
+    "relativity",
+    "sap-ariba"
+   ],
+   "start": [
+    "concord-com",
+    "docusign",
+    "relativity"
+   ],
+   "after": [
+    "conga",
+    "luminary",
+    "trelica"
+   ],
+   "top": [
+    "lawvu",
+    "mitratech",
+    "relativity"
+   ],
+   "page_token": [
+    "callidus-legal-ai",
+    "dealhub"
+   ],
+   "per_page": [
+    "jurisign",
+    "tropic"
+   ],
+   "before": [
+    "luminary"
+   ],
+   "starting_after": [
+    "robin-ai"
+   ]
+  },
+  "property": {
+   "lower": [
+    "agree-com",
+    "concord-com",
+    "conga",
+    "contractbook",
+    "docusign",
+    "getaccept",
+    "jurisign",
+    "lawvu",
+    "notarize",
+    "oneflow",
+    "robin-ai",
+    "rocket-lawyer",
+    "sirion",
+    "spotdraft",
+    "termscout",
+    "tropic",
+    "vaquill-ai"
+   ],
+   "snake_case": [
+    "agree-com",
+    "contractbook",
+    "getaccept",
+    "jurisign",
+    "notarize",
+    "oneflow",
+    "robin-ai",
+    "spotdraft",
+    "termscout",
+    "tropic"
+   ],
+   "camelCase": [
+    "concord-com",
+    "conga",
+    "docusign",
+    "lawvu",
+    "rocket-lawyer",
+    "sirion",
+    "vaquill-ai"
+   ],
+   "PascalCase": [
+    "conga"
+   ],
+   "other": [
+    "conga"
+   ]
+  }
+ }
+}

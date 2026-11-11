@@ -1,0 +1,28 @@
+provider: oneflow
+apis_io: https://apis.io/providers/oneflow/
+context: contracts
+generated: '2026-11-11'
+concepts:
+  contract:
+    path_segment:
+    - contracts
+    properties:
+      id: id
+      status: state
+      name: name
+      template_id: template_id
+    core_coverage: 0.75
+    evidence:
+    - openapi/_original/oneflow-openapi.yml#DELETE /contracts/{contract_id}
+    - openapi/_original/oneflow-openapi.yml#GET /contracts
+    - openapi/_original/oneflow-openapi.yml#GET /contracts/{contract_id}
+    - openapi/_original/oneflow-openapi.yml#PUT /contracts/{contract_id}
+  contract_template:
+    path_segment:
+    - templates
+    properties:
+      id: id
+      name: name
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/oneflow-openapi.yml#GET /templates

@@ -1,0 +1,18 @@
+provider: termscout
+apis_io: https://apis.io/providers/termscout/
+context: contracts
+generated: '2026-11-11'
+concepts:
+  contract:
+    path_segment:
+    - contracts
+    properties:
+      id: contract_id
+      status: status
+      template_id: template_id
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/termscout-data-openapi.yml#GET /contracts
+    - openapi/_original/termscout-data-openapi.yml#POST /contracts
+    - openapi/_original/termscout-openapi.json#GET /contracts
+    - openapi/_original/termscout-openapi.json#POST /contracts

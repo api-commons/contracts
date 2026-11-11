@@ -1,0 +1,163 @@
+openapi: 3.1.0
+info:
+  title: Contract Lifecycle (API Commons)
+  version: 0.1.0-draft.20261111
+  description: 'The common Contract Lifecycle interface, distilled from the harvested OpenAPI of 45 providers in
+    the APIs.io catalog. Not a product: no one serves this API. It is the shape the market already shares, measured,
+    so that providers, agents and integrators can map to one vocabulary. See profile.yml.'
+  license:
+    name: CC BY-NC-SA 4.0
+    url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+paths:
+  /contracts:
+    get:
+      operationId: listContracts
+      summary: List contracts
+      tags:
+      - Contracts
+      x-commons-tier: core
+      x-commons-share: 0.9
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: &id001
+                  $ref: '#/components/schemas/Contract'
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+    post:
+      operationId: createContract
+      summary: Create a contract
+      tags:
+      - Contracts
+      x-commons-tier: core
+      x-commons-share: 0.9
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id001
+  /contracts/{contract_id}:
+    parameters:
+    - $ref: '#/components/parameters/contract_id'
+    get:
+      operationId: getContract
+      summary: Get a contract
+      tags:
+      - Contracts
+      x-commons-tier: core
+      x-commons-share: 0.8
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+    patch:
+      operationId: updateContract
+      summary: Update a contract
+      tags:
+      - Contracts
+      x-commons-tier: core
+      x-commons-share: 0.8
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id001
+    delete:
+      operationId: deleteContract
+      summary: Delete a contract
+      tags:
+      - Contracts
+      x-commons-tier: core
+      x-commons-share: 0.6
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+  /contract-templates:
+    get:
+      operationId: listContractTemplates
+      summary: List contract templates
+      tags:
+      - Contract Templates
+      x-commons-tier: core
+      x-commons-share: 1.0
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: &id002
+                  $ref: '#/components/schemas/ContractTemplate'
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+  /contract-templates/{contract_template_id}:
+    parameters:
+    - $ref: '#/components/parameters/contract_template_id'
+    get:
+      operationId: getContractTemplate
+      summary: Get a contract template
+      tags:
+      - Contract Templates
+      x-commons-tier: core
+      x-commons-share: 0.8
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id002
+components:
+  schemas:
+    Contract:
+      $ref: ./schema/contract.json
+    ContractTemplate:
+      $ref: ./schema/contract_template.json
+  parameters:
+    contract_id:
+      name: contract_id
+      in: path
+      required: true
+      schema:
+        type: string
+    contract_template_id:
+      name: contract_template_id
+      in: path
+      required: true
+      schema:
+        type: string

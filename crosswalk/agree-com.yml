@@ -1,0 +1,30 @@
+provider: agree-com
+apis_io: https://apis.io/providers/agree-com/
+context: contracts
+generated: '2026-11-11'
+concepts:
+  contract:
+    path_segment:
+    - agreements
+    properties:
+      id: id
+      status: status
+      name: name
+      template_id: template_id
+    core_coverage: 0.75
+    evidence:
+    - openapi/_original/agree-com-api-openapi-original.json#DELETE /api/v1/agreements/{id}
+    - openapi/_original/agree-com-api-openapi-original.json#GET /api/v1/agreements
+    - openapi/_original/agree-com-api-openapi-original.json#GET /api/v1/agreements/{id}
+    - openapi/_original/agree-com-api-openapi-original.json#PATCH /api/v1/agreements/{id}
+    - openapi/_original/agree-com-api-openapi-original.json#POST /api/v1/agreements
+  contract_template:
+    path_segment:
+    - templates
+    properties:
+      id: id
+      name: name
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/agree-com-api-openapi-original.json#GET /api/v1/agreements/templates
+    - openapi/_original/agree-com-api-openapi-original.json#GET /api/v1/agreements/templates/{id}

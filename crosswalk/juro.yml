@@ -1,0 +1,24 @@
+provider: juro
+apis_io: https://apis.io/providers/juro/
+context: contracts
+generated: '2026-11-11'
+concepts:
+  contract:
+    path_segment:
+    - contracts
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/juro-openapi.yml#DELETE /contracts/{contract_id}
+    - openapi/_original/juro-openapi.yml#GET /contracts
+    - openapi/_original/juro-openapi.yml#GET /contracts/{contract_id}
+    - openapi/_original/juro-openapi.yml#PATCH /contracts/{contract_id}
+    - openapi/_original/juro-openapi.yml#POST /contracts
+  contract_template:
+    path_segment:
+    - templates
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/juro-openapi.yml#GET /templates
+    - openapi/_original/juro-openapi.yml#GET /templates/{template_id}

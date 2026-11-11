@@ -1,0 +1,58 @@
+context: contracts
+generated: '2026-11-11'
+adopters:
+- provider: agree-com
+  apis_io: https://apis.io/providers/agree-com/
+  crosswalk: crosswalk/agree-com.yml
+  concepts:
+  - contract
+  - contract_template
+- provider: concord-com
+  apis_io: https://apis.io/providers/concord-com/
+  crosswalk: crosswalk/concord-com.yml
+  concepts:
+  - contract
+- provider: conga
+  apis_io: https://apis.io/providers/conga/
+  crosswalk: crosswalk/conga.yml
+  concepts:
+  - contract
+  - contract_template
+- provider: juro
+  apis_io: https://apis.io/providers/juro/
+  crosswalk: crosswalk/juro.yml
+  concepts:
+  - contract
+  - contract_template
+- provider: lawvu
+  apis_io: https://apis.io/providers/lawvu/
+  crosswalk: crosswalk/lawvu.yml
+  concepts:
+  - contract
+- provider: oneflow
+  apis_io: https://apis.io/providers/oneflow/
+  crosswalk: crosswalk/oneflow.yml
+  concepts:
+  - contract
+  - contract_template
+- provider: sirion
+  apis_io: https://apis.io/providers/sirion/
+  crosswalk: crosswalk/sirion.yml
+  concepts:
+  - contract
+- provider: spotdraft
+  apis_io: https://apis.io/providers/spotdraft/
+  crosswalk: crosswalk/spotdraft.yml
+  concepts:
+  - contract
+  - contract_template
+- provider: termscout
+  apis_io: https://apis.io/providers/termscout/
+  crosswalk: crosswalk/termscout.yml
+  concepts:
+  - contract
+- provider: tropic
+  apis_io: https://apis.io/providers/tropic/
+  crosswalk: crosswalk/tropic.yml
+  concepts:
+  - contract

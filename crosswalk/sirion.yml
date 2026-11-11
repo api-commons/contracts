@@ -1,0 +1,21 @@
+provider: sirion
+apis_io: https://apis.io/providers/sirion/
+context: contracts
+generated: '2026-11-11'
+concepts:
+  contract:
+    path_segment:
+    - contracts
+    properties:
+      id: id
+      status: status
+      name: title
+      created_at: createdAt
+      effective_date: effectiveDate
+      expiration_date: expiryDate
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/sirion-openapi.yml#GET /contracts
+    - openapi/_original/sirion-openapi.yml#GET /contracts/{contractId}
+    - openapi/_original/sirion-openapi.yml#PATCH /contracts/{contractId}
+    - openapi/_original/sirion-openapi.yml#POST /contracts
